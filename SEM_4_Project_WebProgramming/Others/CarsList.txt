@@ -1,0 +1,13 @@
+﻿1) Performance Edition	Supercar				Track
+2) 911 Carrera			911 Turbo				919 Hybrid
+3) 911 Carrera S		911 Turbo S				RS Sypder
+4) 911 Carrera 4		911 Turbo S Cabriolet
+5) 911 Carrera 4S		911 Turbo Cabriolet
+6) 911 Targa 4			911 GT3 RS
+7) 911 Targa 4S			911 R
+8) Cayman S
+0) Cayman GTS			Hypercar				Unclassified
+1) Cayman GT4			918 Spyder				Mission E
+
+
+

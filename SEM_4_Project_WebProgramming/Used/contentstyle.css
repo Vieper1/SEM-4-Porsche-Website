@@ -1,0 +1,138 @@
+﻿*{
+	font-family: "Agency FB";
+    
+}
+
+body
+{
+    padding: 0px 0px;
+	background-image: url("background.png");
+    background-size: 2%;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+/*//////////////////// Header ////////////////////*/
+#divHeader
+{
+    position: relative;
+    height: 12%;
+    background-color: #1B171E;
+}
+
+#divNavigation{
+	position: absolute;
+	right: 10%;
+	left: 0%;
+	height: 100%;
+}
+
+.cellsNavigation{
+	width: 150px;
+	font-size: 34;
+}
+
+.cellsNavigation:hover{
+	background-color: #FF1744;
+	cursor: hand;
+	transition-duration: 0.3s;
+}
+
+#divLogo
+{
+	display: inline;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+}
+
+#divModels{
+	position: absolute;
+	z-index: 1;
+	box-shadow: 5px 5px 10px #2B2B2B;
+	top: 96%;
+	left: 2px;
+	width: 50%;
+	display: none;
+	background-color: #FF1744;
+}
+
+.modelTableHeaders{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#tableModels{
+	font-size: 24;
+}
+
+#cellModels:hover{
+	cursor: hand;
+}
+/*//////////////////// Header ////////////////////*/
+
+
+/*//////////////////// Content ////////////////////*/
+.contentContainer
+{
+    width: 1200px;
+    padding: 0px 0px 0px 0px;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+
+.contentPanel
+{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 5px 5px 14px #000000;
+    -moz-box-shadow: 5px 5px 14px #000000;
+    box-shadow: 5px 5px 14px #000000;
+    background-color: #DDDDDD;
+    font-size: 12pt;
+    color: #0e0f12;
+    text-align: center;
+
+    position: relative;
+}
+
+#contentShowoff
+{
+    top: 2px;
+    padding-top: 3px;
+    position: relative;
+}
+
+#contentColumn
+{
+    width: 592px;
+    font-size: 110%;
+}
+
+#contentPanelPanel
+{
+    width: 592px;
+    background-color: white;
+}
+
+#contentTable
+{
+    width: 592px;
+    line-height: 30px;
+}
+/*//////////////////// Content ////////////////////*/
+
+/*//////////////////// Splasher ////////////////////*/
+.splashContainer
+{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: block;
+    
+}
+/*//////////////////// Splasher ////////////////////*/

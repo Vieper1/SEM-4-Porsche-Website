@@ -1,0 +1,73 @@
+/*Author: PsyClone*/
+
+*{
+	font-family: "Calibri Light";
+	font-size: 18px;
+}
+
+body{
+	background-image: url("background2.png");
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+#allTheThings{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+#legend1{
+	font-size: 46px;
+}
+
+.input{
+	border: 1px solid white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#fieldset1{
+	width: 100%;
+	border-radius: 5px;
+}
+
+::-webkit-input-placeholder{
+	color: #757575;
+}
+
+.buttons1button{
+	background-color: #D81B60;
+	height: 8%;
+	width: 10%;
+	color: white;
+	position: absolute;
+	left: 200px;
+	width: 200px;
+}
+
+.buttons1reset{
+	background-color: #D81B60;
+	height: 8%;
+	width: 10%;
+	color: white;
+	position: absolute;
+	left: 550px;
+}
+
+.buttons1button:hover{
+	transition-duration: 0.5s;
+	background-color: white;
+	color: #D81B60;
+	cursor: pointer;
+	box-shadow: 3px 3px 10px #2B2B2B;
+}
+
+.buttons1reset:hover{
+	transition-duration: 0.5s;
+	background-color: white;
+	color: #D81B60;
+	cursor: pointer;
+	box-shadow: 3px 3px 10px #2B2B2B;
+}

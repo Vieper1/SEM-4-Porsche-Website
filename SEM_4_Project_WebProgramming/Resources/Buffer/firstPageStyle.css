@@ -1,0 +1,72 @@
+/*Author: PsyClone*/
+
+*{
+	color: white;
+	font-family: "Agency FB"
+}
+
+body{
+	padding: 5px 40px;
+	background-image: url("../Images/background.png");
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+#divHeader{
+	position: relative;
+}
+
+#divMainNavigation{
+	
+}
+
+.cellsMainNavigation{
+	width: 150px;
+	font-size: 30;
+}
+
+#divSubNavigation{
+	display: inline;
+}
+
+.cellsSubNavigation{
+	width: 100px;
+	font-size: 30;
+}
+
+#divLogo{
+	display: inline;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+}
+
+#divModels{
+	position: absolute;
+	z-index: 1;
+	box-shadow: 5px 5px 10px #2B2B2B;
+	top: 98%;
+	left: 2px;
+	display: none;
+	background-color: #FF1744;
+	width: 50%;
+}
+
+.modelTableHeaders{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#tableModels{
+	font-size: 24;
+}
+
+#cellModels:hover{
+	cursor: hand;
+}
+
+#divPhotos{
+	height: 80%;
+	text-align: center;
+}

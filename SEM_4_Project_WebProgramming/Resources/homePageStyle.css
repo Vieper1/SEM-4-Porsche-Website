@@ -1,0 +1,122 @@
+/*Author: PsyClone*/
+
+*{
+	color: white;
+	font-family: "Agency FB"
+}
+
+body{
+	padding: 2px 20px;
+	background-image: url("background.png");
+    background-size: 2%;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+/*//////////HEADER//////////*/
+
+#divHeader{
+	position: fixed;
+    z-index: 5;
+	height: 12%;
+    width: 95%;
+	background-color: #1B171E;
+}
+
+#divNavigation{
+	position: absolute;
+	right: 10%;
+	left: 0%;
+	height: 100%;
+}
+
+#divLogo{
+	display: inline;
+	position: absolute;
+	right: 0px;
+	height: 100%;
+}
+
+.cellsNavigation{
+	width: 150px;
+	font-size: 34px;
+}
+
+.cellsNavigation:hover{
+	background-color: #FF1744;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+/*//////////DYNAMIC TABLE//////////*/
+
+#divModels{
+	position: absolute;
+	z-index: 1;
+	box-shadow: 5px 5px 10px #2B2B2B;
+	top: 96%;
+	left: 2px;
+	width: 50%;
+	display: none;
+	background-color: #FF1744;
+}
+
+.modelTableHeaders{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#tableModels{
+	font-size: 24px;
+}
+
+/*//////////PHOTO SCROLL//////////*/
+
+#divPhotos{
+    position: absolute;
+    top: 14%;
+    left: 0;
+    right: 0;
+	height: 85%;
+	text-align: center;
+}
+
+#divPhotoSelector{
+    position: absolute;
+    top: 93%;
+    left: 45%;;
+}
+
+.photoSelector:hover{
+	cursor: pointer;
+}
+
+/*//////////FOOTER LINKS//////////*/
+
+#tableFooter{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+	background-color: #212121;
+	font-size: 24px;
+}
+
+a{
+    font-size: inherit;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
